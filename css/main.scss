@@ -1,4 +1,4 @@
-$primary-color: blue;
+$primary-color: rgb(88, 88, 255);
 $secondary-color: black;
 
 html {
@@ -26,11 +26,13 @@ a {
 }
 
 .contacts {
-  margin-bottom: 2em;
-
+   margin-bottom: 2em;
+  }
 .contact {
   display: flex;
+  flex-direction: column;
 
-  &_type {
+  &__type {
     min-width: 90px;
+  }
 }

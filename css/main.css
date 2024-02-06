@@ -1,0 +1,35 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: black;
+}
+
+h1 {
+  color: rgb(88, 88, 255);
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: black;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+a {
+  color: rgb(88, 88, 255);
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.contact__type {
+  min-width: 90px;
+}/*# sourceMappingURL=main.css.map */
