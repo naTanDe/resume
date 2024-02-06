@@ -25,6 +25,9 @@ a {
   color: $primary-color;
 }
 
+.contacts {
+  margin-bottom: 2em;
+
 .contact {
   display: flex;
 
